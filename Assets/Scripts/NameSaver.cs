@@ -37,9 +37,7 @@ public class NameSaver : MonoBehaviour
             data.BestPlayerName = BestPlayerName;
             data.HighScore = HighScore;
             string json = JsonUtility.ToJson(data);
-            Debug.Log(Application.persistentDataPath);
             File.WriteAllText(Application.persistentDataPath + "/savefile.json", json);
-            Debug.Log("data is saved!");
         }
     }
 
