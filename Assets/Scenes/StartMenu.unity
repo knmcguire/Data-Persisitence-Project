@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000030518, y: 0}
-  m_SizeDelta: {x: 752, y: 743}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 833, y: 525}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &130202508
 MonoBehaviour:
@@ -680,6 +680,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerName: 
+  BestPlayerName: 
+  CurrentScore: 0
+  HighScore: 0
 --- !u!4 &884755304
 Transform:
   m_ObjectHideFlags: 0
